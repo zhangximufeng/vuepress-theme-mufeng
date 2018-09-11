@@ -1,5 +1,5 @@
 # vuepress-theme-mufeng
-
+[我的博客](https://zhangximufeng.github.io)
 ## Installation
 
 ```bash
@@ -74,9 +74,6 @@ module.exports = {
 
 the above configuration let's theme know that `TAGS` field in the navbar is specifically for browsing tags from posts. When you visit the above path, it looks like following:
 
-![](https://blog-1252181333.cossh.myqcloud.com/blog/180137.png)
-
-![](https://blog-1252181333.cossh.myqcloud.com/blog/180218.png)
 
 ## Comment System
 
