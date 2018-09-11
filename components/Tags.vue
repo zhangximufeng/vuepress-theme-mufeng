@@ -7,7 +7,7 @@
                 :highlight="true"
                 :slug="tag"
                 :key="tag"
-                :style="{borderLeft:$tags[tag].length/5 +'px solid #'+Math.random().toString(16).slice(2,8)}">
+                >
                 #{{tag}} {{$tags[tag].length}}
             </Tag>
 

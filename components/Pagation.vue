@@ -15,7 +15,7 @@
           {{ num }}
         </span>
       </span>
-     <span v-if="totalIndex +1 != total.length" @click="totalIndex += 1" class="pagation-num"> ... </span>
+     <span v-if="totalIndex +1 != total.length && total.length>=1" @click="totalIndex += 1" class="pagation-num"> ... </span>
 
     </template>
     <span class="pagation-action pagation-next"
