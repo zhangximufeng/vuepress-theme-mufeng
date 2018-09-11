@@ -1,0 +1,27 @@
+{
+  "name": "vuepress-theme-mufeng",
+  "version": "2.0.1",
+  "description": "vuepress-theme",
+  "repository": "https://github.com/zhangximufeng/vuepress-theme-mufeng",
+  "homepage": "https://github.com/zhangximufeng/vuepress-theme-mufeng/blob/master/README.md",
+  "main": "util.js",
+  "keywords": [
+    "vuepress",
+    "theme",
+    "vuepress-theme"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangximufeng",
+  "license": "ISC",
+  "dependencies": {
+    "autosize": "^4.0.2",
+    "axios": "^0.18.0",
+    "date-fns": "^1.29.0",
+    "github-markdown-css": "^2.10.0",
+    "html2canvas": "^1.0.0-alpha.12",
+    "node-polyglot": "^2.3.0",
+    "raw-loader": "^0.5.1"
+  }
+}
