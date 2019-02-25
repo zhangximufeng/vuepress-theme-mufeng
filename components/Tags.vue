@@ -55,7 +55,16 @@ export default {
         pageWithSpecTag() {
             if (!this.tagName) return [];
             const tagKeys = this.$tags[this.tagName.toLowerCase()];
-            return this.pages.filter(page => page.key && !!~tagKeys.indexOf(page.key));
+
+
+            // return this.pages.filter(page => page.key && !!~tagKeys.indexOf(page.key));
+            return this.pages.filter(page => {
+                if (page.key) {
+                    return page.key && !!~tagKeys.indexOf(page.key)
+                } else {
+                    return []
+                }
+                });
         },
     }
 }
