@@ -1,7 +1,7 @@
 <template>
-  <div 
-    @click="click" 
-    ref="particleContainer" 
+  <div
+    @click="click"
+    ref="particleContainer"
     id="particleContainer">
     <slot></slot>
   </div>
@@ -101,13 +101,13 @@ export default {
         },
         resize() {
             if (!this.particleCanvas) return;
-            this.particleCanvas.width = 
-                window.innerWidth || 
-                document.documentElement.clientWidth || 
+            this.particleCanvas.width =
+                window.innerWidth ||
+                document.documentElement.clientWidth ||
                 document.body.clientWidth;
-            this.particleCanvas.height = 
-                window.innerHeight || 
-                document.documentElement.clientHeight || 
+            this.particleCanvas.height =
+                window.innerHeight ||
+                document.documentElement.clientHeight ||
                 document.body.clientHeight;
         },
         update() {
@@ -136,7 +136,7 @@ export default {
                     }
                 }
             }
-            // Animate performantly
+            // Animate performantly requestAnimationFrame
             window.requestAnimationFrame(this.update);
         }
     }
