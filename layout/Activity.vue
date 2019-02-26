@@ -9,7 +9,7 @@
       <p>
         <div v-if="actions && actions.length">
           <Particle>
-            <span class="action" v-for="action in actions">
+            <span class="action" v-for="action in actions" >
               <AnimationButton class="action-button" :item="action"/>&nbsp;
             </span>
           </Particle>
