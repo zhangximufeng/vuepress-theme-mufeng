@@ -1,5 +1,5 @@
 [![vuepress-theme-mufeng](https://github-readme-stats.vercel.app/api?username=zhangximufeng)](https://zhangximufeng.github.io)
-## 效果演示
+## vuepress-theme-mufeng
 [demo](https://zhangximufeng.github.io)
 ## Installation
 
