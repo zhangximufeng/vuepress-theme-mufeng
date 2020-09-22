@@ -1,6 +1,6 @@
-[![vuepress-theme-mufeng](https://github-readme-stats.vercel.app/api?username=zhangximufeng)]()
-
-[我的博客](https://zhangximufeng.github.io)
+[![vuepress-theme-mufeng](https://github-readme-stats.vercel.app/api?username=zhangximufeng)](https://zhangximufeng.github.io)
+## 效果演示
+[demo](https://zhangximufeng.github.io)
 ## Installation
 
 ```bash
